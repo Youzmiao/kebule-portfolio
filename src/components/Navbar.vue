@@ -4,7 +4,7 @@
             <div class="flex justify-between items-center h-auto pt-8">
                 <div class="flex items-center">
                     <router-link to="/" class="text-3xl font-bold text-white font-dancing">
-                        Kebule<span class="text-[#00ff9d]">.</span>
+                        Kebule<span class="text-[#00ff9d] pl-1">.</span>
                     </router-link>
                 </div>
 
@@ -101,13 +101,5 @@ watch(() => route.path, () => {
     background-color: #00ff9d;
     opacity: 0;
     transition: transform 0.3s ease, width 0.3s ease, opacity 0.3s ease;
-}
-
-.font-dancing {
-    font-family: 'Dancing Script', cursive;
-}
-
-.font-nunito {
-    font-family: 'Nunito', sans-serif;
 }
 </style>
